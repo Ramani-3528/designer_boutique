@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 html {
@@ -56,9 +56,7 @@ h1 {
 
 h2 {
     font-size: 3rem;
-    margin-bottom: 3rem;
-    position: relative;
-    display: inline-block;
+    /* margin-bottom: 3rem; */
 }
 
 h3 {
@@ -70,7 +68,7 @@ p {
     font-size: 15px;
 }
 
-h2::after {
+/* h2::after {
     content: "";
     position: absolute;
     width: 50%;
@@ -78,15 +76,18 @@ h2::after {
     background: var(--primary);
     bottom: -10px;
     left: 25%;
-}
+} */
 
 li {
     list-style-type: none;
 }
 
 a {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    padding: 0rem 2rem;
+    color: var(--dark);
     text-decoration: none;
-    color: inherit;
 }
 
 .grid-3 {
@@ -125,30 +126,17 @@ a {
 }
 
 .navBar {
-    /* position: fixed; */
     width: 100%;
 }
 
 .logo {
-    font-size: 1.8rem;
+    font-family: "Dancing Script", cursive;
+    font-size: 5rem;
     font-weight: bold;
 }
 
 .logo span {
     color: var(--primary);
-}
-
-.navLinksBox {
-    display: flex;
-    gap: 2rem;
-}
-
-.navLinksBox a {
-    font-size: 20px;
-    text-decoration: none;
-    color: var(--light);
-    font-weight: 500;
-    position: relative;
 }
 
 #iconToggle {
@@ -160,7 +148,7 @@ a {
     font-size: 2.5rem;
     color: #00000080;
     border: 0.1rem solid #0000001d;
-    padding: 0.3rem 1.9rem 0.3rem 1.9rem;
+    padding: 0.3rem 1.5rem;
     border-radius: 0.55rem;
     display: none;
 }
@@ -184,7 +172,6 @@ a {
 }
 
 .button {
-    display: inline-block;
     background: var(--primary);
     color: var(--light);
     padding: 0.8rem 2rem;
@@ -269,7 +256,13 @@ footer i:hover {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
+    .grid-3,
+    .grid-4{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0rem 1rem;
+    }
     .navLinksBox .hamburger {
         display: block;
         position: absolute;
@@ -278,12 +271,12 @@ footer i:hover {
         cursor: pointer;
     }
 
-    .links {
+    .navLink {
         flex-direction: column;
         display: none;
     }
 
-    #iconToggle:checked~.links {
+    #iconToggle:checked~.navLink {
         display: flex;
     }
 
