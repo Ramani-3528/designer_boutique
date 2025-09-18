@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 html {
@@ -90,6 +90,13 @@ a {
     text-decoration: none;
 }
 
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 0rem 2rem;
+}
+
 .grid-3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -124,9 +131,14 @@ a {
     justify-content: right;
     text-align: right;
 }
-
-.navBar {
+.navBar{
+    position: fixed;
+    background-color: white;
     width: 100%;
+}
+
+.navContainer {
+    padding: 1rem 4rem;
 }
 
 .logo {
