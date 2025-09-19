@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
 
 * {
     margin: 0;
@@ -22,6 +23,8 @@ body {
     font-family: "Dancing Script", cursive;
     font-family: "Playfair Display", serif;
     font-family: "Nunito", sans-serif;
+    font-family: "Story Script", sans-serif;
+    background-color: #ae4a5a;
 }
 
 :root {
@@ -50,21 +53,26 @@ body {
 }
 
 h1 {
+    font-family: "Dancing Script", cursive;
     font-size: 4rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
 }
 
 h2 {
+    font-family: "Story Script", sans-serif;
     font-size: 3rem;
-    /* margin-bottom: 3rem; */
+    color: #ffffff;
+    margin-bottom: 3rem;
 }
 
 h3 {
-    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
     color: var(--primary);
 }
 
 p {
+    font-family: "Nunito", sans-serif;
     font-size: 15px;
 }
 
@@ -131,9 +139,10 @@ a {
     justify-content: right;
     text-align: right;
 }
+
 .navBar{
-    position: fixed;
-    background-color: white;
+    /* position: fixed; */
+    background-color: #fdabba;
     width: 100%;
 }
 
@@ -166,7 +175,7 @@ a {
 }
 
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("./assets/images/background.jpeg");
+    background: url("./assets/images/background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -178,7 +187,12 @@ a {
     height: 700px;
 }
 
-.hero p {
+.heroBox h1{
+    font-size: 50px;
+    color: #ae4a5a;
+}
+
+.heroBox p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
 }
@@ -196,13 +210,14 @@ a {
     background: #8c6b53;
 }
 
-.collections {
+.accessories {
     margin-left: 2rem;
 }
 
 .cardHeader figure img {
     width: auto;
     height: 350px;
+    border-radius: 0rem 7rem 0rem 7rem;
 }
 
 .designers {
@@ -214,7 +229,7 @@ a {
     height: auto;
 }
 
-.gallery {
+.collections {
     margin-left: 2rem;
 }
 
