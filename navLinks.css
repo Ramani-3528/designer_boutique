@@ -27,3 +27,70 @@ body {
     --ffSecondary: "Nunito", sans-serif;
     --ffTertiarary: "Story Script", sans-serif;
 }
+
+.screensize{
+    max-width: 800px;
+    margin: auto;
+}
+
+.br-bottom {
+    border-bottom: 0.3rem solid var(--primarycolor);
+    max-width: 10rem;
+    margin: auto;
+}
+
+h1 {
+    font-family: var(--ffTertiarary);
+    color: var(--secondarycolor);
+    font-size: 5rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 2rem 0rem 0rem;
+}
+
+h2 {
+    font-family: var(--ffPrimary);
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--lightColor);
+    text-align: center;
+}
+
+.br-bottom {
+    border-bottom: 0.3rem solid var(--primarycolor);
+    max-width: 10rem;
+    margin: auto;
+}
+
+h3 {
+    font-family: var(--ffTertiarary);
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--secondarycolor);
+    padding-top: 2rem;
+}
+
+p {
+    font-family: var(--ffSecondary);
+    color: var(--lightColor);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Accessories */
+.accessories {
+    justify-content: center;
+}
+/* Accessorise */
+
+/* Collections */
+.collections {
+    
+}
+/* Collections */
+
+/* Designers */
+.designers {
+    margin-left: 2rem;
+}
+/* Designers */

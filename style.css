@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 html {
@@ -344,23 +344,34 @@ textarea {
         font-size: 3rem;
     }
 
+    h3{
+        padding-top: unset;
+    }
+
     p {
         font-size: 1.6rem;
+        padding: 0rem 0rem 2rem;
+    }
+
+    .cardHeader figure img {
+        width: auto;
+        height: 250px;
+        border-radius: 0rem 4rem 0rem 4rem;
     }
 
     .accessoriesBox {
-        padding-bottom: 1.5rem;
+        padding-bottom: 2rem;
     }
 
     .collectionsBox{
-        padding-bottom: 1.5rem; 
+        padding-bottom: 2rem; 
     }
 
     .designerBox{
-        padding-bottom: 1.5rem; 
+        padding-bottom: 2rem; 
     }
     
     .contactBox{
-        padding-bottom: 1.5rem;
+        padding-bottom: 2rem;
     }
 }
