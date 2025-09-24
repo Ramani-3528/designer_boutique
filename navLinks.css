@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
 * {
@@ -15,33 +15,42 @@ html {
 }
 
 body {
-    background-color: var(--darkColor);
+    background: linear-gradient(#56131f9a 100%), url("./assets/images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 :root {
-    --primarycolor: #f59aab;
-    --secondarycolor: #c69950;
-    --darkColor: #702f39;
+    --primarycolor: #f68ea1;
+    --secondarycolor: #ce9e4f;
+    --darkColor: #461632;
     --lightColor: #fff;
-    --ffPrimary: "Dancing Script";
+    --ffPrimary: "Parisienne";
     --ffSecondary: "Nunito", sans-serif;
     --ffTertiarary: "Story Script", sans-serif;
 }
 
-.screensize{
+.screensize-1{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.screensize-3{
     max-width: 800px;
     margin: auto;
 }
 
 .br-bottom {
-    border-bottom: 0.3rem solid var(--primarycolor);
+    border-bottom: 0.3rem solid var(--darkColor);
     max-width: 10rem;
     margin: auto;
 }
 
 h1 {
-    font-family: var(--ffTertiarary);
-    color: var(--secondarycolor);
+    font-family: var(--ffPrimary);
+    color: var(--darkColor);
     font-size: 5rem;
     font-weight: 900;
     text-align: center;
@@ -49,16 +58,16 @@ h1 {
 }
 
 h2 {
-    font-family: var(--ffPrimary);
+    font-family: var(--ffTertiarary);
     font-size: 4rem;
-    font-weight: 700;
-    color: var(--lightColor);
-    text-align: center;
+    font-weight: 600;
+    color: var(--secondarycolor);
+    /* text-align: center; */
 }
 
 .br-bottom {
     border-bottom: 0.3rem solid var(--primarycolor);
-    max-width: 10rem;
+    max-width: 15rem;
     margin: auto;
 }
 
@@ -66,31 +75,99 @@ h3 {
     font-family: var(--ffTertiarary);
     font-size: 25px;
     font-weight: 600;
-    color: var(--secondarycolor);
-    padding-top: 2rem;
+    color: var(--darkColor);
+    padding-bottom: 2rem;
 }
 
 p {
     font-family: var(--ffSecondary);
     color: var(--lightColor);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
 }
 
-/* Accessories */
-.accessories {
+.componentSpacing {
+    padding: 2rem 0rem;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 0rem 2rem;
+}
+
+.dflex {
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
-/* Accessorise */
 
-/* Collections */
-.collections {
-    
-}
-/* Collections */
+.dflex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} 
 
-/* Designers */
-.designers {
-    margin-left: 2rem;
+/* Designers code*/
+.arpitaBox figure img,
+.rohanBox figure img,
+.meeraBox figure img{
+    width: auto;
+    height: 270px;
+    border-radius: 2rem;
 }
-/* Designers */
+/* Designers code*/
+
+/* Responsive */
+@media(max-width:576px) {
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        display: grid;
+        grid-template-columns:1fr;
+        padding: 0rem 1rem;
+    }
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    h2{
+        font-size: 3.2rem;
+    }
+
+    h3{
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.6rem;
+        padding: 0rem 0rem 2rem;
+    }
+    .arpitaBox figure img,
+    .rohanBox figure img,
+    .meeraBox figure img{
+        width: auto;
+        height: 200px;
+        border-radius: 2rem;
+    }
+    .arpitaBody,
+    .rohanBody,
+    .meeraBody{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contentBox {
+        background: none;
+        padding: 15px;
+        border-radius: 15px;
+    }
+    .margin{
+        margin: 4rem;
+    }
+}

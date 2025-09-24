@@ -320,6 +320,15 @@ textarea {
         cursor: pointer;
     }
 
+    .navLinksBox ul li{
+        padding: 1rem;
+    }
+
+    .navLinksBlock {
+        justify-content: start;
+        padding: 1rem 0rem;
+    }
+
     .navLink {
         flex-direction: column;
         display: none;
