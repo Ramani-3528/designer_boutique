@@ -385,6 +385,6 @@ textarea {
     }
     form input,
     textarea {
-        width: 45rem;
-}
+        width: 40rem;
+    }
 }
