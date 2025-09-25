@@ -383,4 +383,8 @@ textarea {
     .contactBox{
         padding-bottom: 2rem;
     }
+    form input,
+    textarea {
+        width: 45rem;
+}
 }
