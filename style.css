@@ -205,14 +205,9 @@ button:hover {
     color: var(--secondarycolor);
     padding: 2rem 0rem;
 }
-
 /* Hero */
 
 /* Accessories */
-.accessories {
-    /* margin-left: 2rem; */
-}
-
 .handcraftsBody {
     padding: 3rem 0rem 0rem 0rem;
 }
@@ -223,14 +218,9 @@ button:hover {
     border-radius: 0rem 7rem 0rem 7rem;
     padding: 0rem 1rem;
 }
-
 /* Accessorise */
 
 /* Collections */
-.collections {
-    /* margin-left: 2rem; */
-}
-
 .costumeBody {
     padding-top: 3rem;
 }
@@ -240,11 +230,9 @@ button:hover {
     height: 380px;
     padding: 3rem;
 }
-
 /* Collections */
 
 /* Designers */
-
 .membersBody {
     padding-top: 3rem;
 }
@@ -253,7 +241,6 @@ button:hover {
     width: 350px;
     height: auto;
 }
-
 /* Designers */
 
 /* Contact */
@@ -286,6 +273,7 @@ textarea {
     border: none;
     cursor: pointer;
 }
+/* Contact */
 
 /* Footer */
 .copyrights {
@@ -299,6 +287,7 @@ textarea {
     font-size: 25px;
     color: var(--primarycolor);
 }
+/* Footer */
 
 /* Responsive */
 @media(max-width:576px) {
