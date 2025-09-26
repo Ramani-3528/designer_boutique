@@ -210,44 +210,43 @@ button:hover {
 
 /* Accessories */
 .accessories {
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
 }
 
 .handcraftsBody {
-    padding: 3rem 0rem 0rem;
+    padding: 3rem 0rem 0rem 0rem;
 }
 
 .cardHeader figure img {
     width: auto;
-    height: 350px;
+    height: 320px;
     border-radius: 0rem 7rem 0rem 7rem;
+    padding: 0rem 1rem;
 }
 
 /* Accessorise */
 
 /* Collections */
 .collections {
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
 }
 
 .costumeBody {
-    padding: 3rem 0rem 0rem;
+    padding-top: 3rem;
 }
 
 .costumeBody figure img {
     width: auto;
-    height: 350px;
+    height: 380px;
+    padding: 3rem;
 }
 
 /* Collections */
 
 /* Designers */
-.designers {
-    margin-left: 2rem;
-}
 
 .membersBody {
-    padding: 3rem 0rem 0rem;
+    padding-top: 3rem;
 }
 
 .membersBody figure img {
