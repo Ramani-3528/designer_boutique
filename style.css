@@ -311,6 +311,10 @@ textarea {
         padding: 0rem 1rem;
     }
 
+    .navContainer {
+        padding: 1rem 1rem;
+    }
+
     .navLinksBox .hamburger {
         display: block;
         position: absolute;
