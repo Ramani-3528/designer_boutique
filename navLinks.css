@@ -147,6 +147,9 @@ p {
         font-size: 1.6rem;
         padding: 0rem 0rem 2rem;
     }
+    .navBox h1{
+        font-size: 3rem;
+    }
     .arpitaBox figure img,
     .rohanBox figure img,
     .meeraBox figure img{
