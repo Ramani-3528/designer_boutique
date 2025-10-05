@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -23,13 +24,14 @@ body {
 }
 
 :root {
-    --primarycolor: #f68ea1;
+    --primarycolor: #f59aab;
     --secondarycolor: #ce9e4f;
     --darkColor: #461632;
     --lightColor: #fff;
-    --ffPrimary: "Parisienne";
+    --ffPrimary: "Dancing Script";
     --ffSecondary: "Nunito", sans-serif;
     --ffTertiarary: "Story Script", sans-serif;
+    --ffh3: "Parisienne";
 }
 
 ::-webkit-scrollbar{
@@ -43,7 +45,7 @@ body {
 
 ::-webkit-scrollbar-thumb{
     background-color: rgb(197, 196, 194);
-    border-radius: 5px;
+    border-radius: 0.5rem;
 }
 
 .screensize-1{
@@ -82,9 +84,13 @@ body {
 } 
 
 .br-bottom {
-    border-bottom: 0.3rem solid var(--darkColor);
+    border-bottom: 0.3rem solid var(--primarycolor);
     max-width: 10rem;
     margin: auto;
+}
+
+li{
+    list-style-type: none;
 }
 
 h1 {
@@ -104,15 +110,9 @@ h2 {
     /* text-align: center; */
 }
 
-.br-bottom {
-    border-bottom: 0.3rem solid var(--primarycolor);
-    max-width: 15rem;
-    margin: auto;
-}
-
 h3 {
-    font-family: var(--ffTertiarary);
-    font-size: 25px;
+    font-family: var(--ffh3);
+    font-size: 2.8rem;
     font-weight: 600;
     color: var(--darkColor);
     padding-bottom: 2rem;
@@ -121,7 +121,7 @@ h3 {
 p {
     font-family: var(--ffSecondary);
     color: var(--lightColor);
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 
@@ -145,6 +145,7 @@ p {
         grid-template-columns:1fr;
         padding: 0rem 1rem;
     }
+
     h1 {
         font-size: 4.5rem;
     }
@@ -161,9 +162,7 @@ p {
         font-size: 1.6rem;
         padding: 0rem 0rem 2rem;
     }
-    .navBox h1{
-        font-size: 3rem;
-    }
+
     .arpitaBox figure img,
     .rohanBox figure img,
     .meeraBox figure img{
@@ -171,6 +170,7 @@ p {
         height: 200px;
         border-radius: 2rem;
     }
+
     .arpitaBody,
     .rohanBody,
     .meeraBody{
@@ -179,11 +179,13 @@ p {
         justify-content: center;
         align-items: center;
     }
+
     .contentBox {
         background: none;
-        padding: 15px;
+        padding: 1.5rem;
         border-radius: 15px;
     }
+
     .margin{
         margin: 4rem;
     }

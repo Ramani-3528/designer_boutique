@@ -40,7 +40,7 @@ body {
 
 ::-webkit-scrollbar-thumb{
     background-color: rgb(197, 196, 194);
-    border-radius: 5px;
+    border-radius: 0.5rem;
 }
 
 .screensize-1 {
@@ -112,7 +112,6 @@ footer{
     width: 100%;
     height: auto;
 }
-
 /* Parent Container */
 
 h1 {
@@ -146,7 +145,7 @@ h3 {
 p {
     font-family: var(--ffSecondary);
     color: var(--lightColor);
-    font-size: 16px;
+    font-size: 1.7rem;
     font-weight: 600;
 }
 
@@ -154,16 +153,8 @@ span {
     color: var(--secondarycolor);
 }
 
-li {
+li{
     list-style-type: none;
-}
-
-a {
-    font-family: var(--secondarycolor);
-    font-size: 20px;
-    padding: 0rem 2rem;
-    color: var(--darkColor);
-    text-decoration: none;
 }
 
 button {
@@ -173,7 +164,7 @@ button {
     color: var(--lightColor);
     padding: 1.5rem 2rem;
     border: none;
-    border-radius: 50px;
+    border-radius: 5rem;
 
 }
 
@@ -197,6 +188,15 @@ button:hover {
     font-family: var(--ffPrimary);
     font-size: 5rem;
     font-weight: bold;
+}
+
+.navLinksBox ul li a {
+    font-family: var(--ffSecondary);
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 0rem 2rem;
+    color: var(--darkColor);
+    text-decoration: none;
 }
 
 #iconToggle {
@@ -229,7 +229,7 @@ button:hover {
 }
 
 .heroBox h1 {
-    font-size: 50px;
+    font-size: 5rem;
     color: var(--darkColor);
 }
 
@@ -291,7 +291,7 @@ button:hover {
 form input,
 textarea {
     font-family: var(--ffSecondary);
-    font-size: 16px;
+    font-size: 1.6rem;
     text-align: left;
     width: 50rem;
     padding: 1.5rem 3rem;
@@ -316,7 +316,7 @@ textarea {
 
 .copyrightsBox h4 {
     font-family: var(--ffSecondary);
-    font-size: 25px;
+    font-size: 2.5rem;
     color: var(--primarycolor);
 }
 /* Footer */
