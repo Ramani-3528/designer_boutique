@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
 
@@ -22,9 +22,9 @@ body {
 :root {
     --primarycolor: #5e2730;
     --secondarycolor: #c69950;
-    --tertiararyColor: #f59aab;
+    --tertiararyColor: #f8a7b6;
     --lightColor: #fff;
-    --ffPrimary: "Dancing Script";
+    --ffPrimary: "Yesteryear", cursive;
     --ffSecondary: "Nunito", sans-serif;
     --ffTertiarary: "Story Script", sans-serif;
 }
@@ -138,13 +138,13 @@ h3 {
     font-family: var(--ffTertiarary);
     font-size: 30px;
     font-weight: 600;
-    color: var(--secondarycolor);
+    color: var(--secondarycolor); 
     padding-top: 2rem;
 }
 
 p {
     font-family: var(--ffSecondary);
-    color: var(--lightColor);
+    color: var(--primarycolor);
     font-size: 1.7rem;
     font-weight: 600;
 }
@@ -164,13 +164,17 @@ button {
     color: var(--lightColor);
     padding: 1.5rem 2rem;
     border: none;
-    border-radius: 5rem;
+    border-radius: 3rem;
 
 }
 
 button:hover {
     background: var(--primarycolor);
     color: var(--lightColor);
+}
+
+button:active{
+    border: 0.5rem solid var(--tertiararyColor);
 }
 
 /* NavBar*/
@@ -271,7 +275,7 @@ button:hover {
 
 /* Contact */
 .contact {
-    background-image: linear-gradient(#df4f69b5 100%), url(./assets/images/contactImage.jpg);
+    background-image: linear-gradient(#9735479b 100%), url(./assets/images/contactImage.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -294,6 +298,11 @@ textarea {
     margin-bottom: 1rem;
 }
 
+input:focus {
+    outline: var(--tertiararyColor);
+    border: 0.4rem solid var(--tertiararyColor); 
+}
+
 .formBox button {
     background-color: var(--primarycolor);
     border: none;
@@ -308,10 +317,8 @@ textarea {
     padding: 2rem 0rem;
 }
 
-.copyrightsBox h4 {
-    font-family: var(--ffSecondary);
-    font-size: 2.5rem;
-    color: var(--secondarycolor);
+.copyrightsBox p {
+    color: var(--lightColor);
 }
 /* Footer */
 

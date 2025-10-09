@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    background: linear-gradient(#57121f7d 100%), url("./assets/images/background.jpg");
+    background: linear-gradient(#5316227d 100%), url("./assets/images/background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@ body {
     --tertiararyColor: #f59aab;
     --darkColor: #050505;
     --lightColor: #fff;
-    --ffPrimary: "Dancing Script";
+    --ffPrimary: "Yesteryear", cursive;
     --ffSecondary: "Nunito", sans-serif;
     --ffTertiarary: "Story Script", sans-serif;
 }
@@ -97,7 +97,7 @@ h1 {
     font-family: var(--ffPrimary);
     color: var(--tertiararyColor);
     font-size: 5rem;
-    font-weight: 900;
+    font-weight: 500;
     text-align: center;
     padding: 2rem 0rem 0rem;
 }
@@ -105,14 +105,14 @@ h1 {
 h2 {
     font-family: var(--ffTertiarary);
     font-size: 4rem;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--secondarycolor);
 }
 
 h3 {
     font-family: var(--ffSecondary);
-    font-size: 2.8rem;
-    font-weight: 600;
+    font-size: 2.5rem;
+    font-weight: 500;
     color: var(--primarycolor);
     padding-bottom: 2rem;
 }
@@ -120,7 +120,7 @@ h3 {
 p {
     font-family: var(--ffSecondary);
     color: var(--lightColor);
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 600;
 }
 
