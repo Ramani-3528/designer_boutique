@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    background: linear-gradient(#56131f9a 100%), url("./assets/images/background.jpg");
+    background: linear-gradient(#57121f7d 100%), url("./assets/images/background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@ body {
 }
 
 .screensize-3{
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -113,7 +113,7 @@ h3 {
     font-family: var(--ffSecondary);
     font-size: 2.8rem;
     font-weight: 600;
-    color: var(--tertiararyColor);
+    color: var(--primarycolor);
     padding-bottom: 2rem;
 }
 

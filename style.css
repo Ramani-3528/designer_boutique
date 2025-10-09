@@ -227,11 +227,6 @@ button:hover {
     height: 700px;
 }
 
-.heroBox h1 {
-    font-size: 5rem;
-    color: var(--tertiararyColor);
-}
-
 .heroBox p {
     color: var(--secondarycolor);
     padding: 2rem 0rem;
