@@ -94,17 +94,13 @@ li{
 }
 
 h1 {
-    font-family: var(--ffPrimary);
-    color: var(--tertiararyColor);
-    font-size: 5rem;
-    font-weight: 500;
+    font-weight: 400;
+    color: var(--lightColor);
     text-align: center;
     padding: 2rem 0rem 0rem;
 }
 
 h2 {
-    font-family: var(--ffTertiarary);
-    font-size: 4rem;
     font-weight: 500;
     color: var(--secondarycolor);
 }
@@ -113,13 +109,13 @@ h3 {
     font-family: var(--ffSecondary);
     font-size: 2.5rem;
     font-weight: 500;
-    color: var(--primarycolor);
+    color: var(--tertiararyColor);
     padding-bottom: 2rem;
 }
 
 p {
     font-family: var(--ffSecondary);
-    color: var(--lightColor);
+    color: var(--darkColor);
     font-size: 1.7rem;
     font-weight: 600;
 }
