@@ -136,7 +136,7 @@ h2 {
 
 h3 {
     font-family: var(--ffTertiarary);
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
     color: var(--secondarycolor);
     padding-top: 2rem;
@@ -170,7 +170,7 @@ button {
 
 button:hover {
     background: var(--primarycolor);
-    color: var(--tertiararyColor);
+    color: var(--lightColor);
 }
 
 /* NavBar*/
