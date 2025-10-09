@@ -108,10 +108,7 @@ h3 {
 }
 
 p {
-    font-family: var(--ffSecondary);
     color: var(--lightColor);
-    font-size: 1.7rem;
-    font-weight: 600;
 }
 
 /* Designers code*/
