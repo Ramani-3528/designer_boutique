@@ -106,8 +106,6 @@ h2 {
 }
 
 h3 {
-    font-family: var(--ffSecondary);
-    font-size: 2.5rem;
     font-weight: 500;
     color: var(--tertiararyColor);
     padding-bottom: 2rem;
