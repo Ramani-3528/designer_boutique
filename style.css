@@ -136,7 +136,7 @@ h2 {
 
 h3 {
     font-family: var(--ffTertiarary);
-    font-size: 2.5px;
+    font-size: 2.5rem;
     font-weight: 600;
     color: var(--secondarycolor);
     padding-top: 2rem;
@@ -250,10 +250,6 @@ button:active{
 /* Accessorise */
 
 /* Collections */
-.costumeBody {
-    padding-top: 3rem;
-}
-
 .costumeBody figure img {
     width: auto;
     height: 380px;
