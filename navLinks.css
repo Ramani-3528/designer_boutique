@@ -24,9 +24,9 @@ body {
 }
 
 :root {
-    --primarycolor: #f59aab;
+    --primarycolor: #702f39;
     --secondarycolor: #ce9e4f;
-    --darkColor: #461632;
+    --tertiararyColor: #f59aab;
     --lightColor: #fff;
     --ffPrimary: "Dancing Script";
     --ffSecondary: "Nunito", sans-serif;
