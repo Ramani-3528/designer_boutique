@@ -27,11 +27,11 @@ body {
     --primarycolor: #702f39;
     --secondarycolor: #ce9e4f;
     --tertiararyColor: #f59aab;
+    --darkColor: #050505;
     --lightColor: #fff;
     --ffPrimary: "Dancing Script";
     --ffSecondary: "Nunito", sans-serif;
     --ffTertiarary: "Story Script", sans-serif;
-    --ffh3: "Parisienne";
 }
 
 ::-webkit-scrollbar{
@@ -95,7 +95,7 @@ li{
 
 h1 {
     font-family: var(--ffPrimary);
-    color: var(--darkColor);
+    color: var(--tertiararyColor);
     font-size: 5rem;
     font-weight: 900;
     text-align: center;
@@ -110,10 +110,10 @@ h2 {
 }
 
 h3 {
-    font-family: var(--ffh3);
+    font-family: var(--ffSecondary);
     font-size: 2.8rem;
     font-weight: 600;
-    color: var(--darkColor);
+    color: var(--tertiararyColor);
     padding-bottom: 2rem;
 }
 
