@@ -401,8 +401,7 @@ input:focus {
     .contactBox{
         padding-bottom: 2rem;
     }
-    form input,
-    textarea {
+    input {
         width: 27rem;
     }
 }
