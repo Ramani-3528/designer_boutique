@@ -109,7 +109,11 @@ h3 {
 
 p {
     color: var(--lightColor);
-    /* display: inline-block; */
+    /* display: inline; */
+}
+
+.custom{
+    padding-bottom: 2rem;
 }
 
 /* Designers code*/
@@ -172,6 +176,6 @@ p {
     }
 
     .margin{
-        margin: 4rem;
+        margin: 0rem 4rem;
     }
 }
