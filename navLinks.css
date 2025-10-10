@@ -109,6 +109,7 @@ h3 {
 
 p {
     color: var(--lightColor);
+    /* display: inline-block; */
 }
 
 /* Designers code*/
@@ -167,9 +168,7 @@ p {
     }
 
     .contentBox {
-        background: none;
-        padding: 1.5rem;
-        border-radius: 15px;
+        padding: 4rem;
     }
 
     .margin{
