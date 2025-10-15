@@ -21,8 +21,8 @@ body {
 
 :root {
     --primarycolor: #5e2730;
-    --secondarycolor: #c69950;
-    --tertiararyColor: #f8a7b6;
+    --secondarycolor: #d1a358;
+    --tertiararyColor: #faafbe;
     --lightColor: #fff;
     --ffPrimary: "Yesteryear", cursive;
     --ffSecondary: "Nunito", sans-serif;
@@ -125,25 +125,25 @@ h2 {
     font-family: var(--ffTertiarary);
     font-size: 4rem;
     font-weight: 700;
-    color: var(--lightColor);
+    color: var(--primarycolor);
 }
 
 .br-bottom {
-    border-bottom: 0.3rem solid var(--primarycolor);
+    border-bottom: 0.3rem solid var(--secondarycolor);
     max-width: 10rem;
     margin: auto;
 }
 
 h3 {
     font-family: var(--ffTertiarary);
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 600;
     color: var(--secondarycolor);
 }
 
 p {
     font-family: var(--ffSecondary);
-    color: var(--primarycolor);
+    color: var(--lightColor);
     font-size: 1.7rem;
     font-weight: 600;
 }
@@ -178,7 +178,7 @@ button:active{
 /* NavBar*/
 .navBar {
     /* position: fixed; */
-    background-color: var(--primarycolor);
+    background-color: var(--tertiararyColor);
     width: 100%;
 }
 
@@ -236,15 +236,13 @@ button:active{
 /* Hero */
 
 /* Accessories */
-.handcraftsBody {
-    padding: 3rem 0rem 0rem 0rem;
-}
 
 .cardHeader figure img {
     width: auto;
     height: 320px;
     border-radius: 0rem 7rem 0rem 7rem;
     padding: 0rem 1rem;
+    margin: 3rem 0rem;
 }
 /* Accessorise */
 
@@ -269,7 +267,7 @@ button:active{
 
 /* Contact */
 .contact {
-    background-image: linear-gradient(#9735479b 100%), url(./assets/images/contactImage.jpg);
+    background-image: linear-gradient(#ed6c839b 100%), url(./assets/images/contactImage.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
