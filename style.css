@@ -21,9 +21,9 @@ body {
 
 :root {
     --primarycolor: #5e2730;
-    --secondarycolor: #d1a358;
-    --tertiararyColor: #faafbe;
-    --lightColor: #fff;
+    --secondarycolor: #fac673;
+    --tertiararyColor: #d28a97;
+    --lightColor: #ffffff;
     --ffPrimary: "Yesteryear", cursive;
     --ffSecondary: "Nunito", sans-serif;
     --ffTertiarary: "Story Script", sans-serif;
@@ -125,11 +125,11 @@ h2 {
     font-family: var(--ffTertiarary);
     font-size: 4rem;
     font-weight: 700;
-    color: var(--primarycolor);
+    color: var(--lightColor);
 }
 
 .br-bottom {
-    border-bottom: 0.3rem solid var(--secondarycolor);
+    border-bottom: 0.3rem solid var(--primarycolor);
     max-width: 10rem;
     margin: auto;
 }
@@ -137,13 +137,13 @@ h2 {
 h3 {
     font-family: var(--ffTertiarary);
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--secondarycolor);
 }
 
 p {
     font-family: var(--ffSecondary);
-    color: var(--lightColor);
+    color: var(--primarycolor);
     font-size: 1.7rem;
     font-weight: 600;
 }
@@ -196,7 +196,7 @@ button:active{
     font-weight: 600;
     font-size: 2rem;
     padding: 0rem 2rem;
-    color: var(--secondarycolor);
+    color: var(--lightColor);
     text-decoration: none;
 }
 
@@ -242,7 +242,7 @@ button:active{
     height: 320px;
     border-radius: 0rem 7rem 0rem 7rem;
     padding: 0rem 1rem;
-    margin: 3rem 0rem;
+    margin: 2rem 0rem;
 }
 /* Accessorise */
 
@@ -250,7 +250,7 @@ button:active{
 .costumeBody figure img {
     width: auto;
     height: 380px;
-    padding: 3rem;
+    padding: 3rem 2rem;
 }
 /* Collections */
 
@@ -267,7 +267,7 @@ button:active{
 
 /* Contact */
 .contact {
-    background-image: linear-gradient(#ed6c839b 100%), url(./assets/images/contactImage.jpg);
+    background-image: linear-gradient(#9735479b 100%), url(./assets/images/contactImage.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
