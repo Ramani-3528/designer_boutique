@@ -20,9 +20,9 @@ body {
 }
 
 :root {
-    --primarycolor: #5e2730;
-    --secondarycolor: #fac673;
-    --tertiararyColor: #d28a97;
+    --primarycolor: #6c231e;
+    --secondarycolor: #9d783c;
+    --tertiararyColor: #f191a2;
     --lightColor: #ffffff;
     --ffPrimary: "Yesteryear", cursive;
     --ffSecondary: "Nunito", sans-serif;
@@ -125,11 +125,11 @@ h2 {
     font-family: var(--ffTertiarary);
     font-size: 4rem;
     font-weight: 700;
-    color: var(--lightColor);
+    color: var(--primarycolor);
 }
 
 .br-bottom {
-    border-bottom: 0.3rem solid var(--primarycolor);
+    border-bottom: 0.3rem solid var(--secondarycolor);
     max-width: 10rem;
     margin: auto;
 }
@@ -143,7 +143,7 @@ h3 {
 
 p {
     font-family: var(--ffSecondary);
-    color: var(--primarycolor);
+    color: var(--lightColor);
     font-size: 1.7rem;
     font-weight: 600;
 }
