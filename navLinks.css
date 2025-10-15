@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    background: linear-gradient(#81273975 100%), url("./assets/images/background.jpg");
+    background: linear-gradient(rgba(212, 120, 126, 0.416) 100%), url("./assets/images/background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,14 +24,14 @@ body {
 }
 
 :root {
-    --primarycolor: #5e2730;
-    --secondarycolor: #e9b561;
-    --tertiararyColor: #faafbe;
+    /* --primarycolor: #6c231e;
+    --secondarycolor: #9d783c;
+    --tertiararyColor: rgb(212, 120, 126);
     --darkColor: #050505;
-    --lightColor: #fff;
+    --lightColor: #ffffff;
     --ffPrimary: "Yesteryear", cursive;
     --ffSecondary: "Nunito", sans-serif;
-    --ffTertiarary: "Story Script", sans-serif;
+    --ffTertiarary: "Story Script", sans-serif; */
 }
 
 ::-webkit-scrollbar{
@@ -91,7 +91,6 @@ h1 {
     font-weight: 700;
     color: var(--primarycolor);
     text-align: center;
-    /* text-shadow: 0.6rem 0rem 0.6rem var(--primarycolor); */
     padding: 3rem 0rem 0rem;
 }
 
@@ -103,7 +102,7 @@ h1 {
 
 h2 {
     font-weight: 500;
-    color: var(--tertiararyColor); 
+    color: var(--tertiararyColor);
 }
 
 h3 {
@@ -114,7 +113,7 @@ h3 {
 }
 
 p {
-    color: var(--lightColor);
+    color: var(--darkColor);
     /* display: inline; */
 }
 

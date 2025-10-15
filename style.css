@@ -22,7 +22,8 @@ body {
 :root {
     --primarycolor: #6c231e;
     --secondarycolor: #9d783c;
-    --tertiararyColor: #f191a2;
+    --tertiararyColor: #e6899a;
+    --darkColor: #050505;
     --lightColor: #ffffff;
     --ffPrimary: "Yesteryear", cursive;
     --ffSecondary: "Nunito", sans-serif;
@@ -39,7 +40,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: rgb(197, 196, 194);
+    background-color: rgb(206, 206, 205);
     border-radius: 0.5rem;
 }
 
@@ -125,11 +126,12 @@ h2 {
     font-family: var(--ffTertiarary);
     font-size: 4rem;
     font-weight: 700;
-    color: var(--primarycolor);
+    color: var(--secondarycolor);
+    /* text-shadow: 3px 2px 3px #d8b267; */
 }
 
 .br-bottom {
-    border-bottom: 0.3rem solid var(--secondarycolor);
+    border-bottom: 0.3rem solid var(--primarycolor);
     max-width: 10rem;
     margin: auto;
 }
@@ -138,14 +140,14 @@ h3 {
     font-family: var(--ffTertiarary);
     font-size: 3rem;
     font-weight: 500;
-    color: var(--secondarycolor);
+    color: var(--primarycolor);
 }
 
 p {
     font-family: var(--ffSecondary);
-    color: var(--lightColor);
     font-size: 1.7rem;
     font-weight: 600;
+    color: var(--lightColor);
 }
 
 span {
@@ -267,7 +269,7 @@ button:active{
 
 /* Contact */
 .contact {
-    background-image: linear-gradient(#9735479b 100%), url(./assets/images/contactImage.jpg);
+    background-image: linear-gradient(#97354760 100%), url(./assets/images/contactImage.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
