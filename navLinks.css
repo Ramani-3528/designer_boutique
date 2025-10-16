@@ -23,17 +23,6 @@ body {
     background-attachment: fixed;
 }
 
-:root {
-    /* --primarycolor: #6c231e;
-    --secondarycolor: #9d783c;
-    --tertiararyColor: rgb(212, 120, 126);
-    --darkColor: #050505;
-    --lightColor: #ffffff;
-    --ffPrimary: "Yesteryear", cursive;
-    --ffSecondary: "Nunito", sans-serif;
-    --ffTertiarary: "Story Script", sans-serif; */
-}
-
 ::-webkit-scrollbar{
     width: 1.5rem;
     height: 1rem;
@@ -130,6 +119,41 @@ p {
     border-radius: 2rem;
 }
 /* Designers code*/
+
+/* Contact */
+.contact {
+    background-image: linear-gradient(#97354760 100%), url(./assets/images/contactImage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 0rem;
+}
+
+.formBody {
+    padding: 3rem 0rem 0rem;
+}
+
+input{
+    font-family: var(--ffSecondary);
+    font-size: 1.7rem;
+    width: 50rem;
+    padding: 1.5rem 3rem;
+    border: 1px solid var(--lightColor);
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+input:focus {
+    outline: var(--tertiararyColor);
+    border: 0.4rem solid var(--tertiararyColor); 
+}
+
+.formBox button {
+    background-color: var(--primarycolor);
+    border: none;
+    cursor: pointer;
+}
+/* Contact */
 
 /* Responsive code */
 @media(max-width:576px) {

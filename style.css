@@ -123,8 +123,8 @@ h1 {
 }
 
 h2 {
-    font-family: var(--ffTertiarary);
-    font-size: 4rem;
+    font-family: var(--ffPrimary);
+    font-size: 3.6rem;
     font-weight: 700;
     color: var(--secondarycolor);
     /* text-shadow: 3px 2px 3px #d8b267; */
@@ -145,8 +145,8 @@ h3 {
 
 p {
     font-family: var(--ffSecondary);
-    font-size: 1.7rem;
-    font-weight: 600;
+    font-size: 1.8rem;
+    font-weight: 400;
     color: var(--lightColor);
 }
 
@@ -228,7 +228,7 @@ button:active{
 
 .heroBox {
     width: auto;
-    height: 700px;
+    height: 650px;
 }
 
 .heroBox p {
@@ -245,6 +245,10 @@ button:active{
     border-radius: 0rem 7rem 0rem 7rem;
     padding: 0rem 1rem;
     margin: 2rem 0rem;
+}
+
+.accessories p{
+    text-align: start;
 }
 /* Accessorise */
 
@@ -266,41 +270,6 @@ button:active{
     height: auto;
 }
 /* Designers */
-
-/* Contact */
-.contact {
-    background-image: linear-gradient(#97354760 100%), url(./assets/images/contactImage.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 10rem 0rem;
-}
-
-.formBody {
-    padding: 3rem 0rem 0rem;
-}
-
-input{
-    font-family: var(--ffSecondary);
-    font-size: 1.7rem;
-    width: 50rem;
-    padding: 1.5rem 3rem;
-    border: 1px solid var(--lightColor);
-    border-radius: 10px;
-    margin-bottom: 1.5rem;
-}
-
-input:focus {
-    outline: var(--tertiararyColor);
-    border: 0.4rem solid var(--tertiararyColor); 
-}
-
-.formBox button {
-    background-color: var(--primarycolor);
-    border: none;
-    cursor: pointer;
-}
-/* Contact */
 
 /* Footer */
 .copyrights {
