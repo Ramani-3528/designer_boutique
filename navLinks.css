@@ -83,7 +83,7 @@ h1 {
     padding: 3rem 0rem 0rem;
 }
 
-.br-bottom {
+.border-bottom {
     border-bottom: 0.3rem solid var(--secondarycolor);
     max-width: 10rem;
     margin: auto;
