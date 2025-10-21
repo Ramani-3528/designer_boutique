@@ -362,6 +362,10 @@ button:active{
         padding-bottom: 2rem; 
     }
 
+    .designers figure img{
+        width: 290px;
+    }
+
     .designerBox{
         padding-bottom: 2rem; 
     }
