@@ -369,11 +369,4 @@ button:active{
     .designerBox{
         padding-bottom: 2rem; 
     }
-    
-    .contactBox{
-        padding-bottom: 2rem;
-    }
-    input {
-        width: 27rem;
-    }
 }

@@ -203,6 +203,13 @@ input:focus {
     .contentBox {
         padding: 4rem;
     }
+    
+    .contactBox{
+        padding-bottom: 2rem;
+    }
+    input {
+        width: 27rem;
+    }
 
     .margin{
         margin: 0rem 4rem;
